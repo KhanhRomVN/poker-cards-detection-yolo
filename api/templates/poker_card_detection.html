@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Poker Card Detection</title>
+  </head>
+  <body>
+    <h1>Poker Card Detection</h1>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      <input type="file" name="file" accept="image/*,video/*" />
+      <button type="submit">Upload and Detect</button>
+    </form>
+    {% if result %}
+    <h2>Detection Results:</h2>
+    {% if result.type == 'image' %}
+    <img src="{{ result.image_url }}" alt="Detected Cards" />
+    <h3>Detections:</h3>
+    <ul>
+      {% for detection in result.detections %}
+      <li>
+        {{ detection.class }} (Confidence: {{ detection.confidence|floatformat:2
+        }})
+      </li>
+      {% endfor %}
+    </ul>
+    {% elif result.type == 'video' %}
+    <video width="640" height="480" controls>
+      <source src="{{ result.video_url }}" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    {% endif %} {% endif %}
+  </body>
+</html>

@@ -1,0 +1,180 @@
+{
+  "image_results": [
+    {
+      "image_path": "../data/raw/poker-cards-v2-voc/test\\ (1).jpg",
+      "detections": [
+        {
+          "class": "3 Hearts",
+          "confidence": 0.2756492495536804,
+          "bbox": [
+            401.5340881347656,
+            340.5114440917969,
+            828.9244995117188,
+            664.4378051757812
+          ]
+        }
+      ],
+      "plot_path": "../result/poker-card-detection-result\\image\\detection_ (1).jpg"
+    },
+    {
+      "image_path": "../data/raw/poker-cards-v2-voc/test\\ (10).jpg",
+      "detections": [
+        {
+          "class": "3 Hearts",
+          "confidence": 0.5374335646629333,
+          "bbox": [
+            443.82769775390625,
+            85.96527099609375,
+            802.4440307617188,
+            389.2398376464844
+          ]
+        },
+        {
+          "class": "A Spades",
+          "confidence": 0.46046915650367737,
+          "bbox": [
+            339.0350646972656,
+            320.94171142578125,
+            725.9623413085938,
+            654.3350830078125
+          ]
+        },
+        {
+          "class": "4 Hearts",
+          "confidence": 0.4365645945072174,
+          "bbox": [
+            283.95245361328125,
+            0.0,
+            608.1519165039062,
+            212.5364227294922
+          ]
+        },
+        {
+          "class": "2 Hearts",
+          "confidence": 0.37404072284698486,
+          "bbox": [
+            149.9795379638672,
+            168.98281860351562,
+            500.28204345703125,
+            459.74462890625
+          ]
+        }
+      ],
+      "plot_path": "../result/poker-card-detection-result\\image\\detection_ (10).jpg"
+    },
+    {
+      "image_path": "../data/raw/poker-cards-v2-voc/test\\ (100).jpg",
+      "detections": [
+        {
+          "class": "4 Spades",
+          "confidence": 0.36753490567207336,
+          "bbox": [
+            281.8619384765625,
+            303.3592834472656,
+            535.1968383789062,
+            598.4174194335938
+          ]
+        },
+        {
+          "class": "2 Hearts",
+          "confidence": 0.297384649515152,
+          "bbox": [
+            445.1582336425781,
+            202.1517333984375,
+            812.7536010742188,
+            513.8511352539062
+          ]
+        }
+      ],
+      "plot_path": "../result/poker-card-detection-result\\image\\detection_ (100).jpg"
+    },
+    {
+      "image_path": "../data/raw/poker-cards-v2-voc/test\\ (101).jpg",
+      "detections": [
+        {
+          "class": "4 Hearts",
+          "confidence": 0.42189204692840576,
+          "bbox": [
+            511.001953125,
+            348.7645263671875,
+            886.9803466796875,
+            621.4320068359375
+          ]
+        },
+        {
+          "class": "4 Hearts",
+          "confidence": 0.3483285903930664,
+          "bbox": [
+            530.270751953125,
+            83.30795288085938,
+            896.0784912109375,
+            334.7384033203125
+          ]
+        },
+        {
+          "class": "A Trefoils",
+          "confidence": 0.33426085114479065,
+          "bbox": [
+            140.79190063476562,
+            92.9483413696289,
+            499.7501220703125,
+            347.3238830566406
+          ]
+        },
+        {
+          "class": "3 Hearts",
+          "confidence": 0.31379443407058716,
+          "bbox": [
+            143.81497192382812,
+            354.8738708496094,
+            505.34820556640625,
+            627.1649780273438
+          ]
+        }
+      ],
+      "plot_path": "../result/poker-card-detection-result\\image\\detection_ (101).jpg"
+    },
+    {
+      "image_path": "../data/raw/poker-cards-v2-voc/test\\ (102).jpg",
+      "detections": [
+        {
+          "class": "3 Hearts",
+          "confidence": 0.43942078948020935,
+          "bbox": [
+            326.32684326171875,
+            359.46893310546875,
+            689.71044921875,
+            619.2145385742188
+          ]
+        },
+        {
+          "class": "A Trefoils",
+          "confidence": 0.2807181477546692,
+          "bbox": [
+            133.0542755126953,
+            258.8667297363281,
+            367.3764953613281,
+            505.1069641113281
+          ]
+        },
+        {
+          "class": "4 Hearts",
+          "confidence": 0.26541295647621155,
+          "bbox": [
+            323.02020263671875,
+            130.87152099609375,
+            685.9579467773438,
+            409.1092529296875
+          ]
+        }
+      ],
+      "plot_path": "../result/poker-card-detection-result\\image\\detection_ (102).jpg"
+    }
+  ],
+  "video_results": [
+    {
+      "video_path": "../video/poker-card-detection-video/1.mp4",
+      "output_path": "../result/poker-card-detection-result\\video\\detection_1.mp4"
+    }
+  ]
+}
